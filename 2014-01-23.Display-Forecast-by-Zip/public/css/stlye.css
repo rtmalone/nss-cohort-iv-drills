@@ -1,0 +1,25 @@
+.weather {
+  float: left;
+  margin: 10px;
+  border-radius: 0px 10px 10px 10px;
+  border-style: outset;
+  width: 225px;
+  text-align: center;
+  background: honeydew;
+}
+h2 {
+  margin-left: 10px;
+}
+#inputZip {
+  margin: 8px;
+}
+#zipList {
+  margin: 8px;
+}
+#display {
+  border-radius: 0px 10px 10px 10px;
+  background: #b6ffff;
+  border: 3px solid;
+  height: 209px;
+  margin: 10px 30px;
+}

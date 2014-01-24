@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet' href='/css/normalize.css')
+    link(rel='stylesheet' href='/css/stlye.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+    title Mad Libs
+  body
+    h2 Mad Libs
+    input#textInput(placeholder='words go here' autofocus=true type='text')
+    button#button Make Words
+    button#clear Clear
+    br
+    #container.clear
+    #sentence.clear

@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet' href='/css/normalize.css')
+    link(rel='stylesheet' href='/css/stlye.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+    title 4 Day Forecast
+  body
+    h2 Display Forecast
+    input#inputZip(placeholder='Enter Zip' autofocus=true type='text')
+    button#addZip Add Zip Code
+    br
+    select#zipList
+    button#getForecast Get Forecast
+    #display
+      -for(var i = 0; i<4; i++)
+        .weather
+            h1
+            h2
+            img
+

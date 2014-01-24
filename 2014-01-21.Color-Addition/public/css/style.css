@@ -1,0 +1,10 @@
+h2 {
+  color: blue;
+}
+#container div {
+  height: 60px;
+  width: 60px;
+  border: 3px solid black;
+  float: left;
+  margin: 4px;
+}
