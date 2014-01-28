@@ -1,0 +1,9 @@
+.camBox {
+  width: 138px;
+  height: 99px;
+  float: left;
+  margin: 2px;
+  position: none;
+  repeat: none;
+  border: ridge;
+}

@@ -1,4 +1,4 @@
-/* jshint camelcase:false */
+/* jshin camelcas:false */
 
 (function () {
 
