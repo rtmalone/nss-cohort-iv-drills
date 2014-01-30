@@ -32,13 +32,15 @@
   }
 
   function receive(data){
+    debugger;
     for(var i=0; i<data.webcams.length; i++){
-      var $div = $('<div>');
-      $div.addClass('camBox');
       var hood = data.webcams[i].neighborhood;
       var image = data.webcams[i].WIDGETCURRENTIMAGEURL;
+      var $div = $('<div>');
       $div.css('background', 'url('+image+')');
-      console.log(hood);
+      $div.addClass('camBox');
+      $div.text(hood);
+
       $('#container').append($div);
     }
   }

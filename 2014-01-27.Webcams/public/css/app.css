@@ -2,8 +2,12 @@
   width: 138px;
   height: 99px;
   float: left;
-  margin: 2px;
+  margin: 6px;
   position: none;
   repeat: none;
   border: ridge;
+  background-size: contain;
+  font-size: 8px;
+  padding: 12px;
+  color: tomato;
 }
